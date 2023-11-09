@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" a href="/css/dangnhap.css">
+</head>
+<body>
+    <div ali class="menu">
+        <div class="logo">
+            <img src=".//Ảnh/logo.png" alt="">
+        </div>
+        <div class="dn">
+            <p>Đăng Nhập</p>
+        </div>
+        <p class="help"> Bạn cần giúp đỡ ?</p>
+    </div>
+    <div class="banner">
+        <img src="./assets/monnhat.jpg" alt="">
+    </div>
+    <div id="main" >
+        <div id="right">
+            <form id="form_login" action="">
+            <h1 class="form-heading" >Đăng Nhập </h1>
+            <label for="username" class="font"></label>
+            <div class="form-group">
+                <input type="text" id="username" class="form-input" placeholder="  Email/Số điện thoại/Tên đăng nhập">
+            </div>
+            <label for="password" class="font"></label>
+            <div id="form-group">             
+                <input type="password" id="password" class="form-input" placeholder="  Mật khẩu">
+            </div>
+            <button onclick="dangnhap()"id="lot" type="submit"><a class="form-submit" href="Index.html">Đăng nhập</a></button> 
+            </div>
+            </form>
+            <div class="bottom_dn">
+            <a href=""><div class="qmk">Quên mật khẩu</div></a>
+            <a href=""><div class="ck">Đăng nhập với SMS</div></a>
+            <p>-------------------------HOẶC ----------------------</p>
+            </div>
+            <div class="and">
+                <a href="https://www.facebook.com/ngoctienthu.kim">
+                <div class="facebook"> 
+                    <i img src="./assets/facebook.webp" class="fa-brands fa-facebook"></i>
+                    <p class="p">Facebook</p>
+                </div>
+                </a>
+                <a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app"></a>
+                <div class="gg"> 
+                    <i id="icon1" class="fa-brands fa-google"></i>
+                    <p class="p">Google</p>
+                </div>
+                </a>
+                <a href="apple.com">
+                <div class="apple"> 
+                    <i id="icon1" class="fa-brands fa-apple"></i>
+                    <p class="p">Apple</p>
+                </div>
+                </a>
+            </div>
+           
+        </div> 
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

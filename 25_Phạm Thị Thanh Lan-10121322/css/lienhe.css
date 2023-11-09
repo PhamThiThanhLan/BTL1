@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .header {
+            top: 0;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            background-color: rgb(201, 192, 192);
+        }
+
+        /* icon */
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 500,
+                'GRAD' 0,
+                'opsz' 48
+        }
+
+        /*  */
+
+        .header img {
+            width: 50px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .menu .item {
+            box-sizing: border-box;
+            margin-left: 100px;
+            padding: 10px 40px;
+            display: block;
+            box-sizing: border-box;
+        }
+
+        .menu .item a {
+            font-weight: bolder;
+            text-decoration: none;
+            color: rgb(19, 5, 103);
+            transition: .5s linear;
+            text-transform: uppercase;
+        }
+
+        .menu .item:hover {
+            border-radius: 20px;
+            background-color: rgb(129, 123, 123);
+            transition: .5s linear;
+        }
+
+        .center form {
+            margin-left: 25%;
+        }
+
+        #footer {
+            width: 100%;
+            background: rgb(0, 0, 0, 0.79);
+            height: auto;
+            margin-top: 30px;
+            padding: 10px 0px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #footer .box {
+            width: 250px;
+            color: rgb(255, 255, 255);
+        }
+
+        #footer .box .quick-menu,
+        .item a {
+            color: #fff;
+            text-decoration: none;
+            font-size: medium;
+        }
+
+        #footer .box form input {
+            width: 294px;
+            height: 42px;
+            background: transparent;
+            padding-left: 20px;
+            color: #fff;
+            margin-top: 30px;
+        }
+
+        #footer .box form button {
+            background: #362f2f;
+            box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+            width: 163px;
+            height: 38px;
+            color: #fff;
+        }
+
+        .footer-info-list {
+            text-align: center;
+            padding: 15px 0px 0px 0px;
+            border-top: #eee 1px solid;
+        }

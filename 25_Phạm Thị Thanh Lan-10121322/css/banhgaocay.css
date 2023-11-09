@@ -1,0 +1,36 @@
+#body{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+}
+.danhmuc{
+    background-color:white;
+}
+.body_left hr{
+    width: 200px;
+}
+.body_left   li {
+    list-style: none;
+    padding: 20px;
+}
+.body_right{
+    display: grid;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.content{
+    padding: 0px 15px;
+    width: 50%;
+}
+.content hr{
+    margin: 20px 0px;
+}
+.sp_lien_quan a img{
+    width: 95%;
+
+}
+.body .body_right img{
+    width: 50px;
+}

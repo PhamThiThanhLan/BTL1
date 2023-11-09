@@ -1,0 +1,179 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 160px;
+    background-color: #f5f5f5;
+    position: absolute;
+    border-radius: 5px;
+    display: block;
+}
+#main #right{
+    width: 320px;
+    float: left;
+}
+#lot{
+    margin-top: 20px;
+    background-color: #000000;
+    border: none;
+    margin-bottom: 24px;
+    margin-left: 30px;
+    width: 338px;
+    height: 40px;
+    border-radius: 2px;
+}
+.form-submit{
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.form-heading{
+    font-size: 25px;
+    color:#000000;
+    margin-bottom: 30px;
+    margin-left: 135px;
+}  
+
+.form-input{
+    border: 0;    
+    flex-grow: 1;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 330px;
+    height: 40px;
+    border: 1px solid #bcb8b8;
+    border-radius: 2px;
+}
+#dang_nhap button a{
+    text-decoration: none;
+    list-style: none;
+}
+.banner img{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 1500px;
+    height: 600px;
+    float: left;
+}
+.logo img{
+    margin-left: 150px;
+    float: left;
+    width: 100px;
+
+}
+.dn{
+    float: left;
+    color: #000000;
+    font-size: 150%;
+    margin-left: 10px;
+}
+.help{
+    float: left;
+    margin-left: 800px;
+    margin-top: 50px;
+    color: #000000;
+}
+.qmk{
+    margin-top: 290px;
+    margin-left: 30px;
+    font-size: 70%;
+}
+.ck{
+    font-size: 70%;
+    margin-left: 270px;
+    margin-top: -13px;
+}
+.bottom_dn a{
+    text-decoration: none;
+    color: #1153a8;
+}
+.bottom_dn p{
+    margin-left: 30px;
+    color: #bcb8b8;
+}
+.and{
+    width: 335px ;
+    height: 40px;
+    margin-left: 30px;
+}
+.facebook{
+    float: left;
+    border: 1px solid #c5c4c4;
+    border-radius: 2px;
+    height: 35px;
+    width: 103px;
+}
+.gg{
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #c5c4c4;
+    border-radius: 2px;
+    height: 35px;
+    width: 103px;
+}
+.apple{
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #c5c4c4;
+    border-radius: 2px;
+    height: 35px;
+    width: 103px;
+}
+.p{
+    margin-top: 7px;
+    float: left;
+    margin-left: 3px;
+    color: #000000;
+}
+.facebook i{
+    float: left;
+    margin-top: 5px;
+    margin-left: 4px;
+    font-size: 150%;
+    color: #025fb6;
+}
+.gg i{
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 150%;
+    color: #000000;
+}
+.apple i{
+    float: left;
+    margin-top: 2px;
+    margin-left: 18px;
+    font-size: 170%;
+    color: #000000;
+}
+.facebook:hover{
+    background-color: #ffffff;
+}
+.gg:hover{
+    background-color: #ffffff;
+}
+.apple:hover{
+    background-color: #ffffff;
+}
+.cuoi_cung{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.cuoi_cung p{
+    color: #c5c4c4;
+    font-size: 90%;
+}
+.cuoi_cung p a{
+    text-decoration: none;
+    color: #000000;
+}

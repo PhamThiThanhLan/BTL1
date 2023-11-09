@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/product-icon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="./css/Index.css">
+    <link rel="stylesheet " href="banhgaocay.css">
+    <script src="main.js"></script>
+    <title>Sản phẩm của chúng tôi</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <a href="">
+                <img src="assets/logo.png">
+            </a>
+            <p style="color: rgb(36, 13, 18); font-size: x-large;font-family: 'Dancing Script', cursive;">Lan Food</p>
+            <div class="menu">
+                <div class="item">
+                    <a href="Index.html">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="product.html">Đồ ăn hot</a>
+                </div>
+                <div class="item">
+                    <a href="product.html">Sản Phẩm</a>
+                    <div class="menu-dropdown">
+                        <a href="product.html" class="dropdown-item">Lẩu-Nướng</a>
+                        <a href="product.html" class="dropdown-item">Món ăn thượng hạng</a>
+                        <a href="product.html" class="dropdown-item">Đồ ăn khác</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="lienhe.html">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+        <div class="actions">
+            <a href="cart.html">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </a>
+        </div>
+        
+        <div id="body">
+            
+            <div class="body_right">
+                <div class="main">
+                    <img src="./assets/toboki.jpg" style="padding:  0px 15px;">
+                    <div class="content" >
+                        <h3>Bánh gạo cay Tteokbokki</h3><br>
+                        Tokbokki là một loại bánh gạo truyền thống của Hàn Quốc, chúng dần trở nên nổi tiếng ở nhiều quốc gia trên thế giới. Với màu đỏ bắt mắt và vị cay thơm hấp dẫn, tokbokki vừa là một món ăn truyền thống, vừa là ngôi sao sáng trong ẩm thực đường phố quen thuộc, gắn liền với bao thế hệ người dân Hàn Quốc.
+                        Bắt nguồn từ món ăn cung đình tteok jjim được làm từ bánh dày thái mỏng, thịt, trứng và gia vị rồi nướng lên. Tokbokki là phiên bản mới và độc đáo hơn khi kết hợp tteok jjim nướng với thịt, rau, trứng, gia vị, nước và hạt mè rắc lên trên. Ngoài ra, còn có gungjung tteokbokk - chả cá Hàn quốc cùng với các nguyên liệu là bánh gạo cắt thành thỏi, thịt bò, giá đỗ, nấm đông cô, cà rốt, hành tây và nước tương để điều vị.
+                        <p style="color: red;font-size: 20px;">50.000<sup>đ</sup></p><hr>
+                        Số lượng
+                        <input type="number" min="1" value="1"  class="so_luong">
+                        <div class="them_mua">
+                            <button class="them_cart" style="padding: 15px;color: aliceblue;background-color: green;margin: 20px 0px;" onclick="buy()">Thêm giỏ hàng</button>
+                            <button class="mua_ngay" style="padding: 15px;color: aliceblue;background-color: rgb(218, 169, 80);margin: 20px 0px;" onclick="addAlert()">Mua ngay</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="Binhluan"><h3 style="margin-left: 20px;margin-top: 15px;">Bình luận </h3><br>
+                    <textarea id="comment" name="comment" style="margin: 15px;width: 100%; height: 50px;"></textarea>
+                </div>
+                <H3 style="margin-left: 20px;">Sản phẩm liên quan</H3><br>
+                <div class="sp_lien_quan" style="display: flex">
+                    <a href="ctsp_cherry.html"><img src="images/cherry.webp" alt="cherry"></a>
+                    <a href="ctsp_hong.html"><img src="images/hong_gion_han_quoc_large.webp"></a>
+                    <a href="ctsp_dualuoi.html"><img src="images/dua_luoi_dai_loan_large.webp"></a>
+                    <a href="ctsp_cam_NAVIL.html"><img src="images/cam_nam_phi_large.webp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

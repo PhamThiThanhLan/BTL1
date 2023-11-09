@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/tqt-quản lý sản phẩm.css">
+    <title>Quản lí sản phẩm</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="grid">
+        <div class="colum2">
+
+            <h3 style="padding-left: 25px;">Menu</h3>
+            <a href="">Danh mục</a>
+            <a href="product.html">Quản lý sản phẩm</a>
+            <a href="">Quản lý khách hàng</a>
+            <a href="">Quản lý người dùng</a>
+            <a href="">Quản lý đơn hàng</a>
+            <a href="dangnhap.html">Đăng xuất</a>
+
+
+        </div>
+        <div class="colum10">
+
+            <div class="header">
+               
+                
+                <i class="fas fa-home"></i>
+                <p style="padding-left: 20px;"><h4>Trang chủ</h4></p>
+
+                
+                 
+                <div style="position: absolute; right: 40px; display: flex;">
+                    <span><h3>Admin</h3></span>
+                </div>
+                
+                   
+               
+            </div>
+
+            
+
+            </div>
+
+        </div>
+
+    </div>
+    <section class="content">
+        <div class="container-1">
+            <input type="search" id="search" placeholder="Search..." />
+        </div>
+        <table border="0">
+            <tr class="dau">
+                <td>Tên loại sản phẩm</td>
+                <td>Mã loại sản phẩm</td>
+                <td>Sửa </td>
+                <td>Xóa </td>
+                <td>Thêm </td>
+            </tr>
+            <tr class="chan">
+                <td>Bánh gạo cay</td>
+                <td>Đồ ăn vặt</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="le">
+                <td>Chả xá xiên</td>
+                <td>Đồ ăn vặt</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="chan">
+                <td>Cửu vân long</td>
+                <td>Đồ ăn nhẹ</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="le">
+                <td>Bò phi lê-Trứng cá tầm</td>
+                <td>Điểm tâm</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="chan">
+                <td>Chân giò</td>
+                <td>Đồ mặn</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="le">
+                <td>Dưa vua</td>
+                <td>Tráng miệng</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+            <tr class="le">
+                <td>Lẩu nướng</td>
+                <td>Đồ mặn</td>
+                <td>
+                    <button>Sửa</button>
+                </td>
+                <td>
+                    <button>Xóa</button>
+                </td>
+                <td>
+                    <button>Thêm</button>
+                </td>
+            </tr>
+ 
+        </table>
+        </div>
+    </section>
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script >
+    const nav = document.querySelector('nav');
+    const toggle_menu = document.querySelector('.toggle_menu');
+    const content = document.querySelector('.content');
+
+    toggle_menu.onclick = function() {
+        nav.classList.toggle('hide');
+        content.classList.toggle('expand');
+    } 
+
+</script>
+</html>
